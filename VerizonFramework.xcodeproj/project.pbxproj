@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B9214F2240FDD5B00F5A7E0 /* JitsiMeet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA4CEB52404E4B9002E17FC /* JitsiMeet.framework */; };
+		1B9214F3240FDD5B00F5A7E0 /* JitsiMeet.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA4CEB52404E4B9002E17FC /* JitsiMeet.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1B9214F5240FDD5E00F5A7E0 /* WebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA4CEFA24051C5A002E17FC /* WebRTC.framework */; };
+		1B9214F6240FDD5E00F5A7E0 /* WebRTC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA4CEFA24051C5A002E17FC /* WebRTC.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1B9214FA240FDDF200F5A7E0 /* VerizonWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B9214F7240FDDF200F5A7E0 /* VerizonWrapper.h */; };
+		1B9214FB240FDDF200F5A7E0 /* VerizonWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9214F8240FDDF200F5A7E0 /* VerizonWrapper.m */; };
+		1B9214FC240FDDF200F5A7E0 /* VerizonFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B9214F9240FDDF200F5A7E0 /* VerizonFramework.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1B9214F4240FDD5B00F5A7E0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1B9214F3240FDD5B00F5A7E0 /* JitsiMeet.framework in Embed Frameworks */,
+				1B9214F6240FDD5E00F5A7E0 /* WebRTC.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1B9214F7240FDDF200F5A7E0 /* VerizonWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerizonWrapper.h; sourceTree = "<group>"; };
+		1B9214F8240FDDF200F5A7E0 /* VerizonWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerizonWrapper.m; sourceTree = "<group>"; };
+		1B9214F9240FDDF200F5A7E0 /* VerizonFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerizonFramework.h; sourceTree = "<group>"; };
+		3DA4CEB52404E4B9002E17FC /* JitsiMeet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JitsiMeet.framework; path = VerizonFramework/Frameworks/JitsiMeet.framework; sourceTree = "<group>"; };
+		3DA4CEFA24051C5A002E17FC /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebRTC.framework; path = VerizonFramework/Frameworks/WebRTC.framework; sourceTree = "<group>"; };
+		3DE2C0C124039D3D00316193 /* VerizonFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VerizonFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DE2C0C524039D3D00316193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DE2C0BE24039D3D00316193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9214F2240FDD5B00F5A7E0 /* JitsiMeet.framework in Frameworks */,
+				1B9214F5240FDD5E00F5A7E0 /* WebRTC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DE2C0B724039D3D00316193 = {
+			isa = PBXGroup;
+			children = (
+				3DE2C0C324039D3D00316193 /* VerizonFramework */,
+				3DE2C0C224039D3D00316193 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DE2C0C224039D3D00316193 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DE2C0C124039D3D00316193 /* VerizonFramework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DE2C0C324039D3D00316193 /* VerizonFramework */ = {
+			isa = PBXGroup;
+			children = (
+				1B9214F9240FDDF200F5A7E0 /* VerizonFramework.h */,
+				1B9214F7240FDDF200F5A7E0 /* VerizonWrapper.h */,
+				1B9214F8240FDDF200F5A7E0 /* VerizonWrapper.m */,
+				3DE2C0CC2403EEED00316193 /* Frameworks */,
+				3DE2C0C524039D3D00316193 /* Info.plist */,
+			);
+			path = VerizonFramework;
+			sourceTree = "<group>";
+		};
+		3DE2C0CC2403EEED00316193 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DA4CEB52404E4B9002E17FC /* JitsiMeet.framework */,
+				3DA4CEFA24051C5A002E17FC /* WebRTC.framework */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3DE2C0BC24039D3D00316193 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9214FA240FDDF200F5A7E0 /* VerizonWrapper.h in Headers */,
+				1B9214FC240FDDF200F5A7E0 /* VerizonFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3DE2C0C024039D3D00316193 /* VerizonFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DE2C0C924039D3D00316193 /* Build configuration list for PBXNativeTarget "VerizonFramework" */;
+			buildPhases = (
+				3DE2C0BC24039D3D00316193 /* Headers */,
+				3DE2C0BD24039D3D00316193 /* Sources */,
+				3DE2C0BE24039D3D00316193 /* Frameworks */,
+				3DE2C0BF24039D3D00316193 /* Resources */,
+				1B9214F4240FDD5B00F5A7E0 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VerizonFramework;
+			productName = VerizonFramework;
+			productReference = 3DE2C0C124039D3D00316193 /* VerizonFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DE2C0B824039D3D00316193 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Infy;
+				TargetAttributes = {
+					3DE2C0C024039D3D00316193 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 3DE2C0BB24039D3D00316193 /* Build configuration list for PBXProject "VerizonFramework" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DE2C0B724039D3D00316193;
+			productRefGroup = 3DE2C0C224039D3D00316193 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DE2C0C024039D3D00316193 /* VerizonFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DE2C0BF24039D3D00316193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DE2C0BD24039D3D00316193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9214FB240FDDF200F5A7E0 /* VerizonWrapper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3DE2C0C724039D3D00316193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3DE2C0C824039D3D00316193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3DE2C0CA24039D3D00316193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VerizonFramework/Frameworks",
+				);
+				INFOPLIST_FILE = VerizonFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.infy.VerizonFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DE2C0CB24039D3D00316193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VerizonFramework/Frameworks",
+				);
+				INFOPLIST_FILE = VerizonFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.infy.VerizonFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DE2C0BB24039D3D00316193 /* Build configuration list for PBXProject "VerizonFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DE2C0C724039D3D00316193 /* Debug */,
+				3DE2C0C824039D3D00316193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DE2C0C924039D3D00316193 /* Build configuration list for PBXNativeTarget "VerizonFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DE2C0CA24039D3D00316193 /* Debug */,
+				3DE2C0CB24039D3D00316193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DE2C0B824039D3D00316193 /* Project object */;
+}
