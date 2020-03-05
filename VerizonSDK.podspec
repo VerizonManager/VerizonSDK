@@ -40,7 +40,7 @@ Pod::Spec.new do |spec|
   #
 
   #spec.license      = "MIT (example)"
-spec.license      = { :type => "Apache", :file => "FILE_LICENSE" }
+spec.license      = { :type => "Apache License, Version 2.0", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -80,8 +80,7 @@ spec.license      = { :type => "Apache", :file => "FILE_LICENSE" }
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  #spec.source       = { :git => "https://github.com/VerizonManager/VerizonSDK.git", :tag => "{spec.version}" }
-spec.source       = { :git => "https://github.com/VerizonManager/VerizonSDK.git" }
+  spec.source       = { :git => "https://github.com/VerizonManager/VerizonSDK.git", :commit => "c6a3e1323b2faeff7f32d82b75a6779cd64a5b9c"}
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -91,9 +90,9 @@ spec.source       = { :git => "https://github.com/VerizonManager/VerizonSDK.git"
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
-
+  #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.source_files  = "VerizonFramework/*.{h,m}", "VerizonFramework/Frameworks/*.framework"
+  #spec.exclude_files = "Classes/Exclude"
   # spec.public_header_files = "Classes/**/*.h"
 
 
