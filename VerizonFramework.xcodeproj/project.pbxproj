@@ -11,6 +11,8 @@
 		1B9214FB240FDDF200F5A7E0 /* VerizonWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9214F8240FDDF200F5A7E0 /* VerizonWrapper.m */; };
 		1B9214FC240FDDF200F5A7E0 /* VerizonFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B9214F9240FDDF200F5A7E0 /* VerizonFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B92697D24112F7D00BA9001 /* JitsiMeet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B92697C24112F7D00BA9001 /* JitsiMeet.framework */; };
+		1B92697E2411358200BA9001 /* JitsiMeet.framework in Resources */ = {isa = PBXBuildFile; fileRef = 1B92697C24112F7D00BA9001 /* JitsiMeet.framework */; };
+		1B92697F2411359B00BA9001 /* JitsiMeet.framework in Headers */ = {isa = PBXBuildFile; fileRef = 1B92697C24112F7D00BA9001 /* JitsiMeet.framework */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +73,7 @@
 			files = (
 				1B9214FC240FDDF200F5A7E0 /* VerizonFramework.h in Headers */,
 				1B9214FA240FDDF200F5A7E0 /* VerizonWrapper.h in Headers */,
+				1B92697F2411359B00BA9001 /* JitsiMeet.framework in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B92697E2411358200BA9001 /* JitsiMeet.framework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
