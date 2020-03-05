@@ -91,7 +91,7 @@ spec.license      = { :type => "Apache License, Version 2.0", :file => "FILE_LIC
   #
 
   #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.source_files  = "VerizonFramework/*.{h,m}", "VerizonFramework/Frameworks/*.framework/**/Headers/*.h"
+  spec.source_files  = "VerizonFramework/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
   # spec.public_header_files = "Classes/**/*.h"
 

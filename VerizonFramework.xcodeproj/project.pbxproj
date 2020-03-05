@@ -10,14 +10,14 @@
 		1B9214FA240FDDF200F5A7E0 /* VerizonWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B9214F7240FDDF200F5A7E0 /* VerizonWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B9214FB240FDDF200F5A7E0 /* VerizonWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9214F8240FDDF200F5A7E0 /* VerizonWrapper.m */; };
 		1B9214FC240FDDF200F5A7E0 /* VerizonFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B9214F9240FDDF200F5A7E0 /* VerizonFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B92697B241112DD00BA9001 /* JitsiMeet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B92697A241112DD00BA9001 /* JitsiMeet.framework */; };
+		1B92697D24112F7D00BA9001 /* JitsiMeet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B92697C24112F7D00BA9001 /* JitsiMeet.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1B9214F7240FDDF200F5A7E0 /* VerizonWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerizonWrapper.h; sourceTree = "<group>"; };
 		1B9214F8240FDDF200F5A7E0 /* VerizonWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerizonWrapper.m; sourceTree = "<group>"; };
 		1B9214F9240FDDF200F5A7E0 /* VerizonFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerizonFramework.h; sourceTree = "<group>"; };
-		1B92697A241112DD00BA9001 /* JitsiMeet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JitsiMeet.framework; sourceTree = "<group>"; };
+		1B92697C24112F7D00BA9001 /* JitsiMeet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JitsiMeet.framework; sourceTree = "<group>"; };
 		3DE2C0C124039D3D00316193 /* VerizonFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VerizonFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DE2C0C524039D3D00316193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -27,7 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B92697B241112DD00BA9001 /* JitsiMeet.framework in Frameworks */,
+				1B92697D24112F7D00BA9001 /* JitsiMeet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +37,7 @@
 		3DE2C0B724039D3D00316193 = {
 			isa = PBXGroup;
 			children = (
+				1B92697C24112F7D00BA9001 /* JitsiMeet.framework */,
 				3DE2C0C324039D3D00316193 /* VerizonFramework */,
 				3DE2C0C224039D3D00316193 /* Products */,
 			);
@@ -57,18 +58,8 @@
 				1B9214F7240FDDF200F5A7E0 /* VerizonWrapper.h */,
 				1B9214F8240FDDF200F5A7E0 /* VerizonWrapper.m */,
 				3DE2C0C524039D3D00316193 /* Info.plist */,
-				3DE2C0CC2403EEED00316193 /* Frameworks */,
 			);
 			path = VerizonFramework;
-			sourceTree = "<group>";
-		};
-		3DE2C0CC2403EEED00316193 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1B92697A241112DD00BA9001 /* JitsiMeet.framework */,
-			);
-			name = Frameworks;
-			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
