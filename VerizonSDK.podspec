@@ -80,7 +80,7 @@ spec.license      = { :type => "Apache License, Version 2.0", :file => "FILE_LIC
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/VerizonManager/VerizonSDK.git", :commit => "e0eabac21cc76c5abd00a3ebfc13fe4944e0881b"}
+  spec.source       = { :git => "https://github.com/VerizonManager/VerizonSDK.git", :commit => "bb24c4cab4093bcd130874179da5d4063d2b3a1a"}
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -116,7 +116,7 @@ spec.license      = { :type => "Apache License, Version 2.0", :file => "FILE_LIC
   #  the lib prefix of their name.
   #
 
-  spec.framework  = "JitsiMeet.framework"
+  spec.framework  = "JitsiMeet"
   #spec.frameworks = "JitsiMeet.framework", "WebRTC.framework"
 
   # spec.library   = "iconv"
