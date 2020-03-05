@@ -10,33 +10,16 @@
 		1B9214FA240FDDF200F5A7E0 /* VerizonWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B9214F7240FDDF200F5A7E0 /* VerizonWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B9214FB240FDDF200F5A7E0 /* VerizonWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9214F8240FDDF200F5A7E0 /* VerizonWrapper.m */; };
 		1B9214FC240FDDF200F5A7E0 /* VerizonFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B9214F9240FDDF200F5A7E0 /* VerizonFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B958D11241105D000D9E5B4 /* JitsiMeet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B958D0F241105A600D9E5B4 /* JitsiMeet.framework */; };
-		1B958D12241105D000D9E5B4 /* JitsiMeet.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1B958D0F241105A600D9E5B4 /* JitsiMeet.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1B958D13241105D200D9E5B4 /* WebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B958D0D241104DA00D9E5B4 /* WebRTC.framework */; };
-		1B958D14241105D200D9E5B4 /* WebRTC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1B958D0D241104DA00D9E5B4 /* WebRTC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1B958D1624110C3C00D9E5B4 /* JitsiMeet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B958D1524110C3C00D9E5B4 /* JitsiMeet.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		1B9214F4240FDD5B00F5A7E0 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				1B958D12241105D000D9E5B4 /* JitsiMeet.framework in Embed Frameworks */,
-				1B958D14241105D200D9E5B4 /* WebRTC.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1B9214F7240FDDF200F5A7E0 /* VerizonWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerizonWrapper.h; sourceTree = "<group>"; };
 		1B9214F8240FDDF200F5A7E0 /* VerizonWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerizonWrapper.m; sourceTree = "<group>"; };
 		1B9214F9240FDDF200F5A7E0 /* VerizonFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerizonFramework.h; sourceTree = "<group>"; };
 		1B958D0D241104DA00D9E5B4 /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebRTC.framework; sourceTree = "<group>"; };
-		1B958D0F241105A600D9E5B4 /* JitsiMeet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JitsiMeet.framework; sourceTree = "<group>"; };
+		1B958D1524110C3C00D9E5B4 /* JitsiMeet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JitsiMeet.framework; path = "../../../../Library/Developer/Xcode/DerivedData/jitsi-meet-cptheklueoyontbvspahnzhggutg/Build/Products/Debug-iphonesimulator/JitsiMeet.framework"; sourceTree = "<group>"; };
 		3DE2C0C124039D3D00316193 /* VerizonFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VerizonFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DE2C0C524039D3D00316193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -46,8 +29,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B958D11241105D000D9E5B4 /* JitsiMeet.framework in Frameworks */,
 				1B958D13241105D200D9E5B4 /* WebRTC.framework in Frameworks */,
+				1B958D1624110C3C00D9E5B4 /* JitsiMeet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +68,7 @@
 		3DE2C0CC2403EEED00316193 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1B958D0F241105A600D9E5B4 /* JitsiMeet.framework */,
+				1B958D1524110C3C00D9E5B4 /* JitsiMeet.framework */,
 				1B958D0D241104DA00D9E5B4 /* WebRTC.framework */,
 			);
 			name = Frameworks;
@@ -115,7 +98,6 @@
 				3DE2C0BD24039D3D00316193 /* Sources */,
 				3DE2C0BE24039D3D00316193 /* Frameworks */,
 				3DE2C0BF24039D3D00316193 /* Resources */,
-				1B9214F4240FDD5B00F5A7E0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
