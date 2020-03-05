@@ -279,7 +279,6 @@
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/VerizonFramework/Frameworks",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = VerizonFramework/Info.plist;
@@ -309,7 +308,6 @@
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/VerizonFramework/Frameworks",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = VerizonFramework/Info.plist;

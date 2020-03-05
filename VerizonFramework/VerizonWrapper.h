@@ -7,11 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-//#import <JitsiMeet/JitsiMeet.h>
 #import "JitsiMeet/JitsiMeet.h"
+
 NS_ASSUME_NONNULL_BEGIN
 
-//@import JitsiMeet;
 
 @protocol VerizonVideoCallViewDelegate <NSObject>
 
