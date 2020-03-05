@@ -80,7 +80,7 @@ spec.license      = { :type => "Apache License, Version 2.0", :file => "FILE_LIC
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/VerizonManager/VerizonSDK.git", :commit => "bb24c4cab4093bcd130874179da5d4063d2b3a1a"}
+  spec.source       = { :git => "https://github.com/VerizonManager/VerizonSDK.git", :commit => "5ed9700f1c4ab9b40ef540bdd13f9fe17b617330"}
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -107,7 +107,7 @@ spec.license      = { :type => "Apache License, Version 2.0", :file => "FILE_LIC
   # spec.resource  = "icon.png"
   # spec.resources = "Resources/*.png"
 
-  # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
+  spec.preserve_paths = "VerizonFramework/Frameworks/JitsiMeet.framework"
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
