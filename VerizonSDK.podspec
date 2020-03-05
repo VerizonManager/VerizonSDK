@@ -107,7 +107,7 @@ spec.license      = { :type => "Apache License, Version 2.0", :file => "FILE_LIC
   # spec.resource  = "icon.png"
   # spec.resources = "Resources/*.png"
 
-  spec.preserve_paths = "VerizonFramework/Frameworks/JitsiMeet.framework"
+  spec.preserve_paths = "JitsiMeet.framework"
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
