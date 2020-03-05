@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <JitsiMeet/JitsiMeet.h>
 #import "VerizonWrapper.h"
 
 //! Project version number for VerizonFramework.

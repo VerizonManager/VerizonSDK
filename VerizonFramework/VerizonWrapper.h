@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "VerizonFramework.h"
+#import <JitsiMeet/JitsiMeet.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
