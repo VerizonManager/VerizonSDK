@@ -80,7 +80,7 @@ spec.license      = { :type => "Apache License, Version 2.0", :file => "FILE_LIC
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/VerizonManager/VerizonSDK.git", :commit => "5ed9700f1c4ab9b40ef540bdd13f9fe17b617330"}
+  spec.source       = { :git => "https://github.com/VerizonManager/VerizonSDK.git"}
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
